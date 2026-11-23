@@ -1,0 +1,36 @@
+/* common font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fcfcfa;
+}
+
+/* common container  */
+.container {
+  max-width: 1380px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.visibleOnHover:hover {
+  opacity: 100;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.hover-border-transition {
+  border: 2px solid transparent; /* Default border */
+  transition: border 0.5s ease-in-out; /* Smooth transition for border */
+}
+
+.hover-border-transition:hover {
+  border-color: var(--primaryColor); /* Change to primary color on hover */
+}
+
+
+
